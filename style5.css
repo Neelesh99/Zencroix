@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg {
+    min-height: 70vh;
+    background-image: url('https://visualhunt.com/photos/xl/7/wood-cottage-wood-house-cabine.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: #222 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
